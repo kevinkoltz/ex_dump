@@ -1,6 +1,12 @@
 # ExDump
 
-**TODO: Add description**
+Helper utility for dumping variables in EEx templates for easy inspection.
+
+## Usage
+
+```elixir
+<%= ExDump.dump(%{foo: "I'm the map, I'm the map"}) %>
+```
 
 ## Installation
 
@@ -10,7 +16,7 @@ by adding `ex_dump` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_dump, "~> 0.1.0"}
+    {:ex_dump, "~> 0.2.0"}
   ]
 end
 ```
