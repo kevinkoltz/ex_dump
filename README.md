@@ -8,6 +8,8 @@ Helper utility for dumping variables in EEx templates for easy inspection.
 <%= ExDump.dump(%{foo: "I'm the map, I'm the map"}) %>
 ```
 
+![Demo](ex_dump_demo.gif)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
