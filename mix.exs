@@ -41,7 +41,7 @@ defmodule ExDump.MixProject do
   defp package() do
     [
       # These are the default files included in the package
-      files: ~w(lib mix.exs README* readme* LICENSE* license*),
+      files: ~w(lib mix.exs README* LICENSE*),
       licenses: ["Apache-2.0"],
       links: %{"GitHub" => "https://github.com/kevinkoltz/ex_dump"}
     ]
