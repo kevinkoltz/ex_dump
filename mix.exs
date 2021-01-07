@@ -24,6 +24,7 @@ defmodule ExDump.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:phoenix_html, "~> 2.0"},
       {:decimal, "~> 2.0"},
       {:floki, "~> 0.0", only: :test}
